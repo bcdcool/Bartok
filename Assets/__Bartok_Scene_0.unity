@@ -391,6 +391,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f91ad57cdcdaa834bab74e998fd650cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deckXML: {fileID: 4900000, guid: c76312a0fb08948699e1abf935e4a957, type: 3}
+  layoutXML: {fileID: 4900000, guid: 8d0baa1dc35eef84984a6e7de3454502, type: 3}
+  layoutCenter: {x: 0, y: 0, z: 0}
+  handFanDegrees: 10
+  numStartingCards: 7
+  drawTimeStagger: 0.1
+  ________________: 0
+  deck: {fileID: 0}
+  drawPile: []
+  discardPile: []
+  layout: {fileID: 0}
+  layoutAnchor: {fileID: 0}
+  players: []
+  targetCard: {fileID: 0}
+  phase: 0
+  turnLight: {fileID: 0}
+  GTGameOver: {fileID: 0}
+  GTRoundResult: {fileID: 0}
 --- !u!1 &904597200
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,8 +493,8 @@ GUIText:
   m_TabSize: 4
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Material: {fileID: 0}
-  m_FontSize: 50
-  m_FontStyle: 1
+  m_FontSize: 28
+  m_FontStyle: 0
   m_Color:
     serializedVersion: 2
     rgba: 4278190080
