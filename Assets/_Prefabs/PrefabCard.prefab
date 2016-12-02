@@ -10,8 +10,8 @@ GameObject:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
   - 65: {fileID: 6500000}
-  - 114: {fileID: 114000013837500766}
   - 54: {fileID: 54000011594078366}
+  - 114: {fileID: 114000010301730448}
   m_Layer: 0
   m_Name: PrefabCard
   m_TagString: Untagged
@@ -103,7 +103,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114000013837500766
+--- !u!114 &114000010301730448
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -114,3 +114,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee2189b651f25f741a6bc6f65582f3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  suit: 
+  rank: 0
+  color: {r: 0, g: 0, b: 0, a: 1}
+  colS: Black
+  decoGOs: []
+  pipGOs: []
+  back: {fileID: 0}
+  def:
+    face: 
+    rank: 0
+    pips: []
+  spriteRenderers: []
+  state: 0
+  bezierPts: []
+  bezierRots: []
+  timeStart: 0
+  timeDuration: 0
+  eventualSortOrder: 0
+  eventualSortLayer: 
+  reportFinishTo: {fileID: 0}
+  callbackPlayer:
+    type: 1
+    playerNum: 0
+    hand: []
+    handSlotDef:
+      x: 0
+      y: 0
+      faceUp: 0
+      layerName: Default
+      layerID: 0
+      id: 0
+      hiddenBy: 
+      rot: 0
+      type: slot
+      stagger: {x: 0, y: 0}
+      player: 0
+      pos: {x: 0, y: 0, z: 0}

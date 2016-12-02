@@ -62,6 +62,7 @@ public class Bartok : MonoBehaviour
 
         layout = GetComponent<BartokLayout>(); // Get the Layout
         layout.ReadLayout(layoutXML.text); // Pass LayoutXML to it
+
         drawPile = UpgradeCardsList(deck.cards);
         LayoutGame();
     }
